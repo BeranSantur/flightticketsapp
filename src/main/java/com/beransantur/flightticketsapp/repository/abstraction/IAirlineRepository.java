@@ -8,5 +8,7 @@ public interface IAirlineRepository {
 
     List<Airline> getAllAirlines();
 
+    Airline getAirlineById(Integer id);
 
+    Integer saveAirline (Airline airline);
 }
