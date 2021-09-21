@@ -11,4 +11,6 @@ public interface IAirlineRepository {
     Airline getAirlineById(Integer id);
 
     Integer saveAirline (Airline airline);
+
+    boolean isAirlineExist(Integer id);
 }

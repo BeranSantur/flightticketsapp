@@ -10,4 +10,6 @@ public interface IAirportRepository {
     Airport getAirportById(Integer id);
 
     Integer saveAirport (Airport airline);
+
+    boolean isAirportExist(Integer id);
 }
